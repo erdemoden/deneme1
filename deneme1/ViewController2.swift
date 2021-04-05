@@ -10,10 +10,24 @@ import UIKit
 
 class ViewController2: UIViewController {
 
+    @IBOutlet weak var kayitedilen: UILabel!
+    @IBOutlet weak var gelentxt: UILabel!
+    var yaz = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        gelentxt.text = yaz
+        let kayited = UserDefaults.standard.object(forKey: "kayitet")
+        if let dene = kayited as? String {
+                kayitedilen.text = dene
+        }
+    }
+    @IBAction func kayit(_ sender: Any) {
+UserDefaults.standard.set(gelentxt.text!, forKey: "kayitet")
+        let alert = UIAlertController(title: "Onay", message: "KAYIT BAŞARIYLA GERÇEKLEŞTİRİLDİ!", preferredStyle: UIAlertController.Style.alert)
+        let button = UIAlertAction(title: "TAMAM", style: UIAlertAction.Style.default, handler: nil)
+        alert.addAction(button)
+        self.present(alert, animated: true, completion: nil)
+        kayitedilen.text = gelentxt.text
     }
     
 

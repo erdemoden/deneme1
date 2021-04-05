@@ -15,6 +15,7 @@
 		197286DA25AB84E700FA307C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 197286D825AB84E700FA307C /* LaunchScreen.storyboard */; };
 		197286E525AB84E800FA307C /* deneme1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197286E425AB84E800FA307C /* deneme1Tests.swift */; };
 		197286F025AB84E800FA307C /* deneme1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197286EF25AB84E800FA307C /* deneme1UITests.swift */; };
+		19A5CB6F25AF9CCD00FDF36E /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A5CB6E25AF9CCD00FDF36E /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		197286EB25AB84E800FA307C /* deneme1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deneme1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		197286EF25AB84E800FA307C /* deneme1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deneme1UITests.swift; sourceTree = "<group>"; };
 		197286F125AB84E800FA307C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19A5CB6E25AF9CCD00FDF36E /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				197286CF25AB84E600FA307C /* SceneDelegate.swift */,
 				197286D125AB84E600FA307C /* ViewController.swift */,
 				197286D325AB84E600FA307C /* Main.storyboard */,
+				19A5CB6E25AF9CCD00FDF36E /* ViewController2.swift */,
 				197286D625AB84E700FA307C /* Assets.xcassets */,
 				197286D825AB84E700FA307C /* LaunchScreen.storyboard */,
 				197286DB25AB84E700FA307C /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				197286D225AB84E600FA307C /* ViewController.swift in Sources */,
+				19A5CB6F25AF9CCD00FDF36E /* ViewController2.swift in Sources */,
 				197286CE25AB84E600FA307C /* AppDelegate.swift in Sources */,
 				197286D025AB84E600FA307C /* SceneDelegate.swift in Sources */,
 			);
